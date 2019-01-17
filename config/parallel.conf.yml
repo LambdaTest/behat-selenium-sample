@@ -1,0 +1,41 @@
+default:
+   paths:
+       features: '../features/single'
+       bootstrap:  '../features/bootstrap'
+   context:
+       parameters:
+           lambdatest:
+               server: "beta-hub.lambdatest.com"
+               user: "YOUR LT_USERNAME"
+               key: "YOUR LT_ACCESS_KEY"
+
+               capabilities:
+                   build: "behat-selenium-sample"
+                   name: "parallel-behat-test"
+                   video: true
+                   visual: true
+                   network: true
+                   console: true
+
+
+               environments:
+                   -
+                       browserName: chrome
+                       version: 71.0
+                       platform: Win10
+                   -
+                       browserName: chrome
+                       version: 70.0
+                       platform: Win10
+                   -
+                       browserName: chrome
+                       version: 69.0
+                       platform: Win10
+                   -
+                       browserName: chrome
+                       version: 68.0
+                       platform: Win10
+                   -
+                       browserName: chrome
+                       version: 67.0
+                       platform: Win10
