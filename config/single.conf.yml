@@ -5,7 +5,7 @@ default:
    context:
        parameters:
            lambdatest:
-               server: "beta-hub.lambdatest.com"
+               server: "hub.lambdatest.com"
                user: "YOUR LT_USERNAME"
                key: "YOUR LT_ACCESS_KEY"
 
