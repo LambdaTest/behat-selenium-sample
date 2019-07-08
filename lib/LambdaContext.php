@@ -10,10 +10,10 @@ class LambdaContext extends Behat\Behat\Context\BehatContext
     public function __construct($parameters){
         $GLOBALS['CONFIG'] = $parameters["lambdatest"];
 
-        $GLOBALS['USERNAME'] = getenv('USERNAME');
+        $GLOBALS['USERNAME'] = getenv('LT_USERNAME');
         if(!$GLOBALS['USERNAME']) $GLOBALS['USERNAME'] = $GLOBALS['CONFIG']['user'];
 
-        $GLOBALS['ACCESS_KEY'] = getenv('ACCESS_KEY');
+        $GLOBALS['ACCESS_KEY'] = getenv('LT_ACCESS_KEY');
         if(!$GLOBALS['ACCESS_KEY']) $GLOBALS['ACCESS_KEY'] = $GLOBALS['CONFIG']['key'];
     }
 
