@@ -1,4 +1,5 @@
-# Behat-Selenium-Sample
+# Run Behat Script on LambdaTest Selenium Grid 
+
 [Behat](https://github.com/Behat/Behat) Integration with LambdaTest.
 
 ![LambdaTest Logo](http://labs.lambdatest.com/images/fills-copy.svg)
