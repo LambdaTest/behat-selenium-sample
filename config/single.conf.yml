@@ -12,14 +12,10 @@ default:
                capabilities:
                    build: "behat-selenium-sample"
                    name: "single-behat-test"
-                   video: true
-                   visual: true
-                   network: true
-                   console: true
 
 
                environments:
                    -
                        browserName: chrome
-                       version: 71.0
-                       platform: Win10
+                       version: latest
+                       platform: Windows10

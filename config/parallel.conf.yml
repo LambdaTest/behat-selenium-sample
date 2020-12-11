@@ -12,30 +12,25 @@ default:
                capabilities:
                    build: "behat-selenium-sample"
                    name: "parallel-behat-test"
-                   video: true
-                   visual: true
-                   network: true
-                   console: true
-
 
                environments:
                    -
                        browserName: chrome
-                       version: 71.0
-                       platform: Win10
+                       version: latest
+                       platform: Windows 10
                    -
                        browserName: chrome
-                       version: 70.0
-                       platform: Win10
+                       version: latest-1
+                       platform: Windows 10
                    -
                        browserName: chrome
-                       version: 69.0
-                       platform: Win10
+                       version: latest-2
+                       platform: Windows 10
                    -
                        browserName: chrome
-                       version: 68.0
-                       platform: Win10
+                       version: latest-3
+                       platform: Windows 10
                    -
                        browserName: chrome
-                       version: 67.0
-                       platform: Win10
+                       version: latest-4
+                       platform: Windows 10

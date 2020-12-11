@@ -28,7 +28,6 @@
 
 ## Running your tests
 - To run a single test, run `composer single`
-- To run local tests, run `composer local`
 - To run parallel tests, run `composer parallel`
 
 #####  Routing traffic through your local machine
