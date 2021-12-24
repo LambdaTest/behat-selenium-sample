@@ -1,21 +1,22 @@
 default:
-   paths:
-       features: '../features/single'
-       bootstrap:  '../features/bootstrap'
-   context:
-       parameters:
-           lambdatest:
-               server: "hub.lambdatest.com"
-               user: "YOUR LT_USERNAME"
-               key: "YOUR LT_ACCESS_KEY"
+    autoload:
+        '': '%paths.base%/../features/bootstrap'
+    suites:
+        default:
+            paths: [ '%paths.base%/../features' ]
+            contexts:
+             - FeatureContext:
+                    parameters:
+                        lambdatest:
+                            server: "hub.lambdatest.com"
+                            user: "YOUR LT_USERNAME"
+                            key: "YOUR LT_ACCESS_KEY"
+                            capabilities:
+                                build: "behat-selenium-sample"
+                                name: "single-behat-test"
+                            environments:
+                                -
+                                    browserName: chrome
+                                    version: latest
+                                    platform: Windows10
 
-               capabilities:
-                   build: "behat-selenium-sample"
-                   name: "single-behat-test"
-
-
-               environments:
-                   -
-                       browserName: chrome
-                       version: latest
-                       platform: Windows10
