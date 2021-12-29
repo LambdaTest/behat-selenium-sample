@@ -1,8 +1,8 @@
 {
   "require": {
-      "behat/behat": "^v3.10.0",
-	    "php-webdriver/webdriver": "^1.12.0",
-      "symfony/yaml": "*"
+    "behat/behat": "^3.10.0",
+    "facebook/webdriver": "dev-master",
+    "symfony/yaml": "*"
   },
   "config": {
       "bin-dir": "bin/"
@@ -10,9 +10,10 @@
   "scripts": {
     "test": "composer single  && composer parallel",
     "single": "./bin/behat --config=config/single.conf.yml",
-    "parallel": "CONFIG_FILE=config/parallel.conf.yml /usr/bin/env php lib/parallel.php"
+    "parallel": "CONFIG_FILE=config/parallel.conf.yml /usr/bin/env php exec-parallel.php"
   },
   "autoload": {
     "classmap": ["lib/"]
   }
 }
+

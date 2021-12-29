@@ -7,16 +7,16 @@ default:
             contexts:
              - FeatureContext:
                     parameters:
-                        lambdatest:
-                            server: "hub.lambdatest.com"
-                            user: "YOUR LT_USERNAME"
-                            key: "YOUR LT_ACCESS_KEY"
-                            capabilities:
-                                build: "behat-selenium-sample"
-                                name: "single-behat-test"
-                            environments:
-                                -
-                                    browserName: chrome
-                                    version: latest
-                                    platform: Windows10
+                        server: "hub.lambdatest.com"
+                        user: "YOUR LT_USERNAME"
+                        key: "YOUR LT_ACCESS_KEY"
+                        capabilities:
+                            build: "behat-selenium-sample"
+                            name: "single-behat-test"
+                        environments:
+                            -
+                                browserName: chrome
+                                browserVersion: latest
+                                platformName: Windows10
+
 
