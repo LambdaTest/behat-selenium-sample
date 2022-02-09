@@ -29,14 +29,18 @@ Step 2. Inside behat-selenium-sample folder, export the Lambda-test Credentials.
    <b>For Linux/macOS:</b>
 ```
 export LT_USERNAME="YOUR_USERNAME"
+   
 export LT_ACCESS_KEY="YOUR ACCESS KEY"
 ```
+   
 <p align="center">
    <b>For Windows:</b>
 ```
 set LT_USERNAME="YOUR_USERNAME"
+   
 set LT_ACCESS_KEY="YOUR ACCESS KEY"
 ```
+   
 Step 3. Install dependencies by composer.
 ```
 composer install 
