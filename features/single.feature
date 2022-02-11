@@ -1,6 +1,7 @@
-Feature: Google's Search Functionality
+Feature: LambdaTest TodoApp Functionality
 
-Scenario: Can find search results
-    Given I am on "https://www.google.com/ncr"
-    When I search for "LambdaTest"
-    Then I get title as "LambdaTest - Google Search"
+Scenario: Check and Verify
+    Given I am on "https://lambdatest.github.io/sample-todo-app/"
+    When I click on checkboxes
+    And I add checkbox with text "New check box"
+    Then I get checkbox text as "New check box"
