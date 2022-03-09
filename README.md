@@ -27,12 +27,14 @@ Step 2. Inside behat-selenium-sample folder, export the Lambda-test Credentials.
 
 <p align="center">
    <b>For Linux/macOS:</b>
+   
 ```
 export LT_USERNAME="YOUR_USERNAME"
 export LT_ACCESS_KEY="YOUR ACCESS KEY"
 ```
 <p align="center">
    <b>For Windows:</b>
+   
 ```
 set LT_USERNAME="YOUR_USERNAME"
 set LT_ACCESS_KEY="YOUR ACCESS KEY"
@@ -50,6 +52,7 @@ Step 5. To run parallel test, run
 ```
 composer parallel
 ```
+   
 ## See the Results
 You can see the results of the test on Lambdatest [Automation Dashboard](https://automation.lambdatest.com/build)
 ![Dashboard](https://github.com/LambdaTest/behat-selenium-sample/dashboard.png)
