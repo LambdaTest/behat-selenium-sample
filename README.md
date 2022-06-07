@@ -154,10 +154,9 @@ LT -user lambdatest@example.com -key 123456
 Once you are able to connect **LambdaTest Tunnel** successfully, you would just have to pass on tunnel capabilities in the code shown below :
 
 **Tunnel Capability**
-
 ```
  "tunnel" => true
-```
+ ```
 
 ## Documentation & Resources :books:
 
