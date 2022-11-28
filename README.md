@@ -39,7 +39,7 @@ Before you begin automation testing with Selenium and Behat, you would need to:
   * **MacOS:** Previous versions of **MacOS** have **PHP** installed by default. But for the latest **MacOS** versions starting with **Monterey**, **PHP** has to be downloaded and installed manually by using below commands: 
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  brew install php
+  brew install php 8
   ```
   * **Windows:** 
   ```bash
