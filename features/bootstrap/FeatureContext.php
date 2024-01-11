@@ -1,6 +1,9 @@
 <?php
 
 require "vendor/autoload.php";
+use Facebook\WebDriver\Remote\RemoteWebDriver;
+use Facebook\WebDriver\WebDriverBy;
+
 
 class FeatureContext extends LambdaContext {
   /** @Given /^I am on "([^"]*)"$/ */

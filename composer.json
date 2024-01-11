@@ -1,7 +1,7 @@
 {
   "require": {
-    "behat/behat": "^3.10.0",
-    "facebook/webdriver": "dev-master",
+    "behat/behat": "^3.14.0",
+    "php-webdriver/webdriver": "^1.15",
     "symfony/yaml": "*"
   },
   "config": {
@@ -16,4 +16,3 @@
     "classmap": ["lib/"]
   }
 }
-

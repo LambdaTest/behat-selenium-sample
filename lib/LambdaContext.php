@@ -1,6 +1,8 @@
 <?php
 
 require 'vendor/autoload.php';
+use Facebook\WebDriver\Remote\RemoteWebDriver;
+
 
 class LambdaContext implements Behat\Behat\Context\Context
 {
