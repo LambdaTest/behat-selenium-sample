@@ -11,7 +11,8 @@
   "scripts": {
     "test": "composer single  && composer parallel",
     "single": "./bin/behat --config=config/single.conf.yml",
-    "parallel": "CONFIG_FILE=config/parallel.conf.yml /usr/bin/env php exec-parallel.php"
+    "parallel": "CONFIG_FILE=config/parallel.conf.yml /usr/bin/env php exec-parallel.php",
+    "smartui-single": "./bin/behat --config=config/smartui-single.conf.yml"
   },
   "autoload": {
     "classmap": [
