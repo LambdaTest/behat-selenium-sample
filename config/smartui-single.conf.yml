@@ -1,0 +1,24 @@
+default:
+    autoload:
+        '': '%paths.base%/../features/bootstrap'
+    suites:
+        default:
+            paths: [ '%paths.base%/../features/smartUI' ]
+            contexts:
+             - FeatureContext:
+                    parameters:
+                        server: "hub.lambdatest.com"
+                        user: "YOUR LT_USERNAME"
+                        key: "YOUR LT_ACCESS_KEY"
+                        capabilities:
+                            "LT:Options": {
+                                build: "smartui-behat-selenium-sample",
+                                name: "single-behat-test",
+                                "smartUI.project": "behat-selenium-sample",
+                            }
+                        environments:
+                            -
+                                browserName: chrome
+                                browserVersion: latest
+
+

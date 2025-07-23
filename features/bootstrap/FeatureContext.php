@@ -41,4 +41,12 @@ class FeatureContext extends LambdaContext {
       throw new Exception("Expected title: '". $string. "'' Actual is: '". $title. "'");
     }
   }
+
+  /**
+     * @Then I capture smartui snapshot
+     */
+    public function captureSmartUiSnapshot()
+    {
+      self::$driver->executeScript("smartui.takeScreenshot=to-do");
+    }
 }
