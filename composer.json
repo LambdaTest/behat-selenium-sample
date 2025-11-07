@@ -1,6 +1,6 @@
 {
   "require": {
-    "behat/behat": "^3.14.0",
+    "behat/behat": "^3.26",
     "php-webdriver/webdriver": "^1.15",
     "symfony/yaml": "*",
     "ext-zip": "*"
