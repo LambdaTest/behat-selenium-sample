@@ -36,7 +36,7 @@ class FeatureContext extends LambdaContext {
 
   /** @Then /^I get checkbox text as "([^"]*)"$/ */
   public function iShouldGet($string) {
-    $title = self::$driver->findElement(WebDriverBy::xpath("/html/body/div/div/div/ul/li[6]/span"))->getText();
+    $title = self::$driver->findElement(WebDriverBy::xpath("//input[@name='li6']/following-sibling::span"))->getText();
     if ((string)  $string !== $title) {
       throw new Exception("Expected title: '". $string. "'' Actual is: '". $title. "'");
     }
