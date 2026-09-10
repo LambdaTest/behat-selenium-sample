@@ -13,7 +13,7 @@
 With TestMu AI (Formerly LambdaTest), you can run Behat-based PHP automation tests on a scalable cloud browser grid. This sample shows how to configure Behat with Selenium to run on the TestMu AI cloud.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
+- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/behat-with-selenium-running-behat-automation-scripts-on-testmu-selenium-grid/) for the full setup walkthrough.
 
 ### Prerequisites
 
